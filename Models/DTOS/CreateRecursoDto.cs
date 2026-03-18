@@ -5,10 +5,10 @@ namespace ImpulseClub.Models.DTOS
     public record CreateRecursoDto
     {
         [Required]
-        public string Nombre { get; init; }
+        public required string Nombre { get; init; }
 
         [Required]
-        public string Tipo { get; init; }
+        public required string Tipo { get; init; }
 
         [Range(1, 10000)]
         public int CantidadTotal { get; init; }

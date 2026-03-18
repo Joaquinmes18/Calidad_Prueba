@@ -2,8 +2,8 @@ namespace ImpulseClub.Models.DTOS
 {
     public class UserResponse
     {
-        public string Id { get; set; }
-        public string Username { get; set; }
-        public string Email { get; set; }
+        public required string Id { get; set; }
+        public required string Username { get; set; }
+        public required string Email { get; set; }
     }
 }
