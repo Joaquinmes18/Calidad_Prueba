@@ -2,21 +2,21 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ImpulseClub.Models.DTOS
 {
-    public class CreateResourceDto
+    public class CreateTrainingDto
     {
         [Required, StringLength(100)]
         public string Name { get; set; } = string.Empty;
 
-        [Required, StringLength(50)]
-        public string Type { get; set; } = string.Empty;
+        [Required]
+        public required DateTime Date { get; set; }
 
         [Required]
-        [Range(1, 10000)]
-        public int TotalQuantity { get; set; } = 1;
+        [Range(1, 480)] // Max 8 hours
+        public required int Duration { get; set; } // Minutes
 
         [Required]
         public Guid ClubId { get; set; }
 
-        public string Status { get; set; } = "Available"; // Available, In Use, Maintenance
+        public string UsedResources { get; set; } = "[]"; // JSON format
     }
 }

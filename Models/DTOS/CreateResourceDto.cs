@@ -12,7 +12,7 @@ namespace ImpulseClub.Models.DTOS
 
         [Required]
         [Range(1, 10000)]
-        public required int TotalQuantity { get; set; } = 1; // <-- Ojo al "required" aquí
+        public required int TotalQuantity { get; set; } = 1;
 
         [Required]
         public Guid ClubId { get; set; }
