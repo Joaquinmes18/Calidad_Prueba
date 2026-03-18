@@ -5,7 +5,7 @@ namespace ImpulseClub.Models.DTOS
     public record CreateEntrenamientoDto
     {
         [Required]
-        public string Nombre { get; init; }
+        public required string Nombre { get; init; } // <-- Aquí agregamos "required"
 
         [Required]
         public DateTime Fecha { get; init; }
