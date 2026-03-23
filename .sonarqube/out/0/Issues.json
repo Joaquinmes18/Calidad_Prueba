@@ -12,6 +12,69 @@
       },
       "results": [
         {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/ITrainingRepository.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 9,
+                  "endLine": 14,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/ITrainingRepository.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 9,
+                  "endLine": 17,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/ITrainingRepository.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 9,
+                  "endLine": 20,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S2068",
           "level": "warning",
           "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
@@ -35,49 +98,15 @@
         {
           "ruleId": "S4144",
           "level": "warning",
-          "message": "Update this method so that its implementation is not identical to 'Add'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
-                "region": {
-                  "startLine": 62,
-                  "startColumn": 27,
-                  "endLine": 62,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
-                "region": {
-                  "startLine": 56,
-                  "startColumn": 27,
-                  "endLine": 56,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S4144",
-          "level": "warning",
           "message": "Update this method so that its implementation is not identical to 'Update'.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
                 "region": {
-                  "startLine": 74,
+                  "startLine": 69,
                   "startColumn": 27,
-                  "endLine": 74,
+                  "endLine": 69,
                   "endColumn": 38
                 }
               }
@@ -88,9 +117,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
                 "region": {
-                  "startLine": 68,
+                  "startLine": 63,
                   "startColumn": 27,
-                  "endLine": 68,
+                  "endLine": 63,
                   "endColumn": 33
                 }
               }
@@ -109,9 +138,9 @@
               "resultFile": {
                 "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
                 "region": {
-                  "startLine": 86,
+                  "startLine": 81,
                   "startColumn": 27,
-                  "endLine": 86,
+                  "endLine": 81,
                   "endColumn": 38
                 }
               }
@@ -122,9 +151,9 @@
               "physicalLocation": {
                 "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
                 "region": {
-                  "startLine": 80,
+                  "startLine": 75,
                   "startColumn": 27,
-                  "endLine": 80,
+                  "endLine": 75,
                   "endColumn": 33
                 }
               }
@@ -175,38 +204,24 @@
           "properties": {
             "warningLevel": 1
           }
-        },
-        {
-          "ruleId": "ASP0025",
-          "level": "note",
-          "message": "Use AddAuthorizationBuilder to register authorization services and construct policies",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Program.cs",
-                "region": {
-                  "startLine": 53,
-                  "startColumn": 1,
-                  "endLine": 57,
-                  "endColumn": 3
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
         }
       ],
       "rules": {
-        "ASP0025": {
-          "id": "ASP0025",
-          "shortDescription": "Use AddAuthorizationBuilder",
-          "defaultLevel": "note",
-          "helpUri": "https://aka.ms/aspnet/analyzers",
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
           "properties": {
-            "category": "Usage",
-            "isEnabledByDefault": true
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
           }
         },
         "S2068": {

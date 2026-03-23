@@ -60,11 +60,6 @@ namespace ImpulseClub.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task Update(Training training)
-        {
-            _context.Trainings.Update(training);
-            await _context.SaveChangesAsync();
-        }
 
         public async Task UpdateAsync(Training training)
         {
@@ -72,11 +67,6 @@ namespace ImpulseClub.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task Delete(Training training)
-        {
-            _context.Trainings.Remove(training);
-            await _context.SaveChangesAsync();
-        }
 
         public async Task DeleteAsync(Training training)
         {
