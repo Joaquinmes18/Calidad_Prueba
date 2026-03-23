@@ -1,0 +1,100 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.2"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1773881475000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "Calidad_proyecto"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba"
+    },
+    {
+      "key": "sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "C0473660-3581-4AB9-89DB-5D1FCF97D880"
+    },
+    {
+      "key": "C0473660-3581-4AB9-89DB-5D1FCF97D880.sonar.projectKey",
+      "value": "Calidad_proyecto:C0473660-3581-4AB9-89DB-5D1FCF97D880"
+    },
+    {
+      "key": "C0473660-3581-4AB9-89DB-5D1FCF97D880.sonar.projectName",
+      "value": "ImpulseClub"
+    },
+    {
+      "key": "C0473660-3581-4AB9-89DB-5D1FCF97D880.sonar.projectBaseDir",
+      "value": "D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba"
+    },
+    {
+      "key": "C0473660-3581-4AB9-89DB-5D1FCF97D880.sonar.working.directory",
+      "value": "D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "C0473660-3581-4AB9-89DB-5D1FCF97D880.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "C0473660-3581-4AB9-89DB-5D1FCF97D880.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "C0473660-3581-4AB9-89DB-5D1FCF97D880.sonar.sources",
+      "value": "D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Controllers\\AuthController.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Controllers\\ClubController.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Controllers\\ResourceController.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Controllers\\TrainingController.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Controllers\\UserController.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Controllers\\WeatherForecastController.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Data\\AppDbContext.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Entities\\Club.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Entities\\Resource.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Entities\\Training.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Entities\\User.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Middleware\\ExceptionHandlingMiddleware.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Migrations\\20251126131711_InitialCreate.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Migrations\\20251126131711_InitialCreate.Designer.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Migrations\\AppDbContextModelSnapshot.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\CreateClubDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\CreateEntrenamientoDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\CreateRecursoDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\CreateResourceDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\CreateTrainingDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\LoginDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\LoginResponse.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\RegisterDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\ResourceReservationDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\UpdateClubDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\UpdateEntrenamientoDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\UpdateRecursoDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\UpdateResourceDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\UpdateTrainingDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\UpdateUserDto.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\DTOS\\UserResponse.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Models\\User.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Program.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Repositories\\ClubRepository.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Repositories\\IClubRepository.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Repositories\\IResourceRepository.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Repositories\\ITrainingRepository.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Repositories\\IUserRepository.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Repositories\\ResourceRepository.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Repositories\\TrainingRepository.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Repositories\\UserRepository.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Services\\AuthService.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Services\\ClubService.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Services\\IAuthService.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Services\\IClubService.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Services\\IResourceService.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Services\\ITrainingService.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Services\\IUserService.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Services\\ResourceService.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Services\\TrainingService.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Services\\UserService.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\WeatherForecast.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\Debug\\net9.0\\ImpulseClub.GlobalUsings.g.cs,\"D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs\",D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\Debug\\net9.0\\ImpulseClub.AssemblyInfo.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\Debug\\net9.0\\ImpulseClub.MvcApplicationPartsAssemblyInfo.cs,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\appsettings.Development.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\appsettings.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\.env,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\.gitignore,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\docker-compose.yml,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Dockerfile,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\dockerignore .dockerignore,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\env .env.example,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\ImpulseClub.http,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\Properties\\launchSettings.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\.vs\\ProjectSettings.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\ImpulseClub.csproj.nuget.dgspec.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\project.assets.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\.github\\workflows\\sonarcloud.yml,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\bin\\Debug\\net9.0\\appsettings.Development.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\bin\\Debug\\net9.0\\appsettings.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\bin\\Debug\\net9.0\\ImpulseClub.deps.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\bin\\Debug\\net9.0\\ImpulseClub.runtimeconfig.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\bin\\Debug\\net9.0\\ImpulseClub.staticwebassets.endpoints.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\Debug\\net9.0\\ImpulseClub.sourcelink.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\Debug\\net9.0\\rjsmcshtml.dswa.cache.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\Debug\\net9.0\\rjsmrazor.dswa.cache.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\Debug\\net9.0\\rpswa.dswa.cache.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\Debug\\net9.0\\staticwebassets.build.endpoints.json,D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\obj\\Debug\\net9.0\\staticwebassets.build.json"
+    },
+    {
+      "key": "C0473660-3581-4AB9-89DB-5D1FCF97D880.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "C0473660-3581-4AB9-89DB-5D1FCF97D880.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "C0473660-3581-4AB9-89DB-5D1FCF97D880.sonar.cs.scanner.telemetry",
+      "value": "D:\\01-2026\\Gestion De Calidad\\proyecto1\\Calidad_Prueba\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "sonar.login",
+      "value": "***"
+    },
+    {
+      "key": "sonar.password",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}

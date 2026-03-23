@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>ImpulseClub</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>c0473660-3581-4ab9-89db-5d1fcf97d880</ProjectGuid>
+  <FullPath>D:\01-2026\Gestion De Calidad\proyecto1\Calidad_Prueba\ImpulseClub.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResultFiles>
+    <AnalysisResultFile Id="FilesToAnalyze" Location="D:\01-2026\Gestion De Calidad\proyecto1\Calidad_Prueba\.sonarqube\conf\0\FilesToAnalyze.txt" />
+  </AnalysisResultFiles>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">D:\01-2026\Gestion De Calidad\proyecto1\Calidad_Prueba\.sonarqube\out\0\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">D:\01-2026\Gestion De Calidad\proyecto1\Calidad_Prueba\.sonarqube\out\0</Property>
+    <Property Name="sonar.cs.scanner.telemetry">D:\01-2026\Gestion De Calidad\proyecto1\Calidad_Prueba\.sonarqube\out\0\Telemetry.json</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net9.0</TargetFramework>
+</ProjectInfo>

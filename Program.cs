@@ -50,11 +50,9 @@ builder.Services
         };
     });
 
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("AdminOnly", p => p.RequireRole("Admin"));
-    options.AddPolicy("FounderOrAdmin", p => p.RequireRole("Founder", "Admin"));
-});
+builder.Services.AddAuthorizationBuilder()
+    .AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"))
+    .AddPolicy("FounderOrAdmin", policy => policy.RequireRole("Founder", "Admin"));
 
 var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL");
 

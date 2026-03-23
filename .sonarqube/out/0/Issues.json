@@ -1,0 +1,280 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.14.0.0",
+        "fileVersion": "4.14.0-3.25465.8 (b0a9adbf)",
+        "semanticVersion": "4.14.0",
+        "language": "en-GB"
+      },
+      "results": [
+        {
+          "ruleId": "S2068",
+          "level": "warning",
+          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/appsettings.json",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 17,
+                  "endLine": 10,
+                  "endColumn": 110
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4144",
+          "level": "warning",
+          "message": "Update this method so that its implementation is not identical to 'Add'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 27,
+                  "endLine": 62,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 27,
+                  "endLine": 56,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4144",
+          "level": "warning",
+          "message": "Update this method so that its implementation is not identical to 'Update'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 27,
+                  "endLine": 74,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 27,
+                  "endLine": 68,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4144",
+          "level": "warning",
+          "message": "Update this method so that its implementation is not identical to 'Delete'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 27,
+                  "endLine": 86,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 27,
+                  "endLine": 80,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5332",
+          "level": "warning",
+          "message": "Using http protocol is insecure. Use https instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Program.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 29,
+                  "endLine": 17,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5122",
+          "level": "warning",
+          "message": "Make sure this permissive CORS policy is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Program.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 36,
+                  "endLine": 25,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "ASP0025",
+          "level": "note",
+          "message": "Use AddAuthorizationBuilder to register authorization services and construct policies",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Program.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 1,
+                  "endLine": 57,
+                  "endColumn": 3
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "ASP0025": {
+          "id": "ASP0025",
+          "shortDescription": "Use AddAuthorizationBuilder",
+          "defaultLevel": "note",
+          "helpUri": "https://aka.ms/aspnet/analyzers",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        },
+        "S2068": {
+          "id": "S2068",
+          "shortDescription": "Hard-coded credentials are security-sensitive",
+          "fullDescription": "Because it is easy to extract strings from an application source code or binary, credentials should not be hard-coded. This is particularly true for applications that are distributed or that are open-source.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2068",
+          "properties": {
+            "category": "Blocker Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4144": {
+          "id": "S4144",
+          "shortDescription": "Methods should not have identical implementations",
+          "fullDescription": "When two methods have the same implementation, either it was a mistake - something else was intended - or the duplication was intentional, but may be confusing to maintainers. In the latter case, one implementation should invoke the other.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4144",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S5122": {
+          "id": "S5122",
+          "shortDescription": "Having a permissive Cross-Origin Resource Sharing policy is security-sensitive",
+          "fullDescription": "Having a permissive Cross-Origin Resource Sharing policy is security-sensitive. It has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-5122",
+          "properties": {
+            "category": "Minor Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S5332": {
+          "id": "S5332",
+          "shortDescription": "Using clear-text protocols is security-sensitive",
+          "fullDescription": "Clear-text protocols such as ftp, telnet, or http lack encryption of transported data, as well as the capability to build an authenticated connection. It means that an attacker able to sniff traffic from the network can read, modify, or corrupt the transported content. These protocols are not secure as they expose applications to an extensive range of risks:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-5332",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
