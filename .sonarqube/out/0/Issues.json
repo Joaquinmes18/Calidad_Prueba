@@ -12,69 +12,6 @@
       },
       "results": [
         {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/ITrainingRepository.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 9,
-                  "endLine": 14,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/ITrainingRepository.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 9,
-                  "endLine": 17,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/ITrainingRepository.cs",
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 9,
-                  "endLine": 20,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S2068",
           "level": "warning",
           "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
@@ -87,74 +24,6 @@
                   "startColumn": 17,
                   "endLine": 10,
                   "endColumn": 110
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S4144",
-          "level": "warning",
-          "message": "Update this method so that its implementation is not identical to 'Update'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
-                "region": {
-                  "startLine": 69,
-                  "startColumn": 27,
-                  "endLine": 69,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
-                "region": {
-                  "startLine": 63,
-                  "startColumn": 27,
-                  "endLine": 63,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S4144",
-          "level": "warning",
-          "message": "Update this method so that its implementation is not identical to 'Delete'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
-                "region": {
-                  "startLine": 81,
-                  "startColumn": 27,
-                  "endLine": 81,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/01-2026/Gestion%20De%20Calidad/proyecto1/Calidad_Prueba/Repositories/TrainingRepository.cs",
-                "region": {
-                  "startLine": 75,
-                  "startColumn": 27,
-                  "endLine": 75,
-                  "endColumn": 33
                 }
               }
             }
@@ -207,23 +76,6 @@
         }
       ],
       "rules": {
-        "S125": {
-          "id": "S125",
-          "shortDescription": "Sections of code should not be commented out",
-          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
         "S2068": {
           "id": "S2068",
           "shortDescription": "Hard-coded credentials are security-sensitive",
@@ -236,23 +88,6 @@
             "tags": [
               "C#",
               "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S4144": {
-          "id": "S4144",
-          "shortDescription": "Methods should not have identical implementations",
-          "fullDescription": "When two methods have the same implementation, either it was a mistake - something else was intended - or the duplication was intentional, but may be confusing to maintainers. In the latter case, one implementation should invoke the other.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4144",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
               "SonarWay"
             ]
           }
