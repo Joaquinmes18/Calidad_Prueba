@@ -53,11 +53,6 @@ namespace ImpulseClub.Repositories
                 .ToListAsync();
         }
 
-        public async Task Add(Training training)
-        {
-            _context.Trainings.Add(training);
-            await _context.SaveChangesAsync();
-        }
 
         public async Task AddAsync(Training training)
         {
